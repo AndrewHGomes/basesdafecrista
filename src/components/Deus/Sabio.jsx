@@ -65,6 +65,7 @@ const Sabio = () => {
             devemos de fato confiar <q>no Senhor</q> de todo o coração e não se
             apoiar no <q>próprio entendimento</q> (<span>Provérbios 3:5</span>).
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>

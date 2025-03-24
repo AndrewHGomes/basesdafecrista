@@ -81,8 +81,8 @@ const Autoridade = () => {
           <p>
             Paulo, sem hesitação, cita textos tanto do Antigo Testamento quanto
             do Novo Testamento chamando-os de <q>Escrituras</q>. Por isso, as
-            palavras do Novo Testamento são consideradas as próprias palavras
-            deDEUS. Consequentemente, Paulo podia escrever:{" "}
+            palavras do Novo Testamento são consideradas as próprias palavras de
+            DEUS. Consequentemente, Paulo podia escrever:{" "}
             <q>o que lhes estou escrevendo é mandamento do Senhor</q> (
             <span onClick={() => abrirModal(biblia[11])}>
               1ªCoríntios 14:37
@@ -133,25 +133,25 @@ const Autoridade = () => {
             O ESPÍRITO SANTO não altera as palavras da Escritura de modo nenhum;
             ele não age sobrenaturalmente para torná-las palavras de DEUS (pois
             elas sempre foram). No entanto, ele muda o leitor da Escritura. O
-            ESPÍRITO SANTO faz com que os leitores percebam que a Bíblia
-            édiferente de qualquer livro que já tenham lido. Mediante a
+            ESPÍRITO SANTO faz com que os leitores percebam que a Bíblia é
+            diferente de qualquer livro que já tenham lido. Mediante a
             leitura,eles passam a crer que as palavras da Escritura são as
-            palavras dopróprio DEUS. É como JESUS disse em{" "}
+            palavras do próprio DEUS. É como JESUS disse em{" "}
             <span onClick={() => abrirModal(biblia[16])}>João 10:27</span>:{" "}
             <q>As minhas ovelhas ouvem a minha voz... E elas me seguem</q>.
           </p>
           <p>
             Outros tipos de argumentos (como confiabilidade histórica,
-            consistência interna, profecias cumpridas, influência sobre outros
-            ea majestosa beleza e sabedoria do conteúdo) podem ser úteis para
-            nos auxiliar a ver a razoabilidade dos reclamos da Bíblia. Como
-            reiaspalavras de DEUS, as palavras da Escritura são mais do
-            quesimplismente verdadeiras; elas são a própria verdade (
+            consistência interna, profecias cumpridas, influência sobre outros e
+            a majestosa beleza e sabedoria do conteúdo) podem ser úteis para nos
+            auxiliar a ver a razoabilidade dos reclamos da Bíblia. Como
+            reiaspalavras de DEUS, as palavras da Escritura são mais do que
+            simplismente verdadeiras; elas são a própria verdade (
             <span onClick={() => abrirModal(biblia[17])}>João 17:17</span>).
             Elas são o aferidor final pelo qual toda suposta verdade deve ser
             avaliada. Logo, o que não se harmoniza com elas não é verdade. Novos
-            fatos científicos ou históricos podem noslevar a reexaminar nossa
-            interpretação da Escritura, mas nunca acontradirão diretamente.
+            fatos científicos ou históricos podem nos levar a reexaminar nossa
+            interpretação da Escritura, mas nunca a contradirão diretamente.
           </p>
           <p>
             A verdade das Escrituras não exige que a Bíblia relate eventos com
@@ -162,8 +162,8 @@ const Autoridade = () => {
             homens comuns em uma linguagem comum e num estilo comum, ela não
             contém citações livres ou soltas e algumas incomuns e desusadas
             formas ortográficas e gramaticais. Mas essas não são questões de
-            veracidade. A Bíblia, em sua forma original, não afirma
-            nadacontrariamente ao fato.
+            veracidade. A Bíblia, em sua forma original, não afirma nada
+            contrariamente ao fato.
           </p>
           <p>
             Se a Bíblia afirmar algo contrário ao fato, então ela não pode ser
@@ -182,6 +182,7 @@ const Autoridade = () => {
             palavras da Escritura, pois, dessa forma, estaremos buscando
             obedecer ao próprio DEUS.
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>

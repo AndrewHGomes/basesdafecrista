@@ -100,6 +100,7 @@ const Clareza = () => {
             especificamente ensinando. Mesmo assim, devemos lê-la com oração,
             pedindo ao Senhor que nos revele a verdade de suas palavras.
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>

@@ -130,6 +130,7 @@ const Suficiencia = () => {
             hesitação em dar mais ênfase a muitos dos assuntos do que a própria
             Bíblia lhes dá.
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>

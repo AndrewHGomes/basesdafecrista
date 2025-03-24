@@ -91,6 +91,7 @@ const Conhecivel = () => {
             podemos glorificá-lo ao imitá-lo e mostrar semelhança com seu
             atributos.
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>

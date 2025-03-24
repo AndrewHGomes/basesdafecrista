@@ -114,8 +114,10 @@ const Necessidade = () => {
             ). Não apenas os ímpios sabem da existência de DEUS e sobre Ele, mas
             também têm em suas mentes e consciências um certo entendimento
             acerca de suas leis morais (
-            <span onClick={() => abrirModal(biblia[34])}>Romanos 1:32</span>;{" "}
-            <span onClick={() => abrirModal(biblia[35])}>2:14-15</span>).
+            <span onClick={() => abrirModal(biblia[34])}>
+              Romanos 1:32
+            </span>; <span onClick={() => abrirModal(biblia[35])}>2:14-15</span>
+            ).
           </p>
           <p>
             Por conseguinte, essa <q>revelação geral</q> sobre a existência de
@@ -129,6 +131,7 @@ const Necessidade = () => {
             como as mensagens diretas de DEUS para os profetas e para outros
             indivíduos, conforme registrado nas histórias da Bíblia.
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>

@@ -73,6 +73,7 @@ const Existe = () => {
             baseada nos indícios que podem ser encontrados tanto na Bíblia como
             no dia-a-dia.
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>

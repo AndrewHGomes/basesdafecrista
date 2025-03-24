@@ -60,6 +60,7 @@ const Onipresente = () => {
             <q>sustentando todas as coisas por sua palavra poderosa</q> (
             <span>Hebreus 1:3</span>).
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>

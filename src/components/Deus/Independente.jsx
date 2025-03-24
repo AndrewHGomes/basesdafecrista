@@ -77,11 +77,12 @@ const Independente = () => {
             </q>
             . E Sofonias diz que DEUS{" "}
             <q>se regozijará em você com brados de alegria</q> (
-            <span onClick={() => abrirModal(deus[15])}>Sofonias 3:17</span>).
+            <span onClick={() => abrirModal(deus[18])}>Sofonias 3:17</span>).
             Embora DEUS não precise de nós, Ele nos permite levar alegria a seu
             coração, alegria que resulta em alto louvor! Isso é um sinal de
             verdadeiro significado.
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>

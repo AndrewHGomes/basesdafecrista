@@ -38,6 +38,7 @@ const Espirito = () => {
             espírito retornará <q>a Deus que o deu</q> (
             <span>Eclesiastes 12:7</span>).
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>

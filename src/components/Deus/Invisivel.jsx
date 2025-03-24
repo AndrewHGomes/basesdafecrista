@@ -41,6 +41,7 @@ const Invisivel = () => {
             pessoas por meio das coisas criadas e visíveis, especialmente
             mediante JESUS CRISTO.
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>

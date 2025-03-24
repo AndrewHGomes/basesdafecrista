@@ -39,6 +39,7 @@ const Onisciente = () => {
             aumenta. Nada o surpreende; nada está escondido dele. DEUS conheceu
             todas as coisas que iriam acontecer e tudo quanto iria fazer.
           </p>
+          <Button onClick={ativar} estado={"Fechar"} />
         </div>
       )}
     </article>
