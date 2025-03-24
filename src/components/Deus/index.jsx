@@ -24,13 +24,13 @@ const Deus = () => {
       <Existe />
       <Conhecivel />
       <Independente />
-      <Imutavel />
+      {/* <Imutavel />
       <Eterno />
       <Onipresente />
       <Espirito />
       <Invisivel />
       <Onisciente />
-      <Sabio />
+      <Sabio /> */}
     </section>
   );
 };

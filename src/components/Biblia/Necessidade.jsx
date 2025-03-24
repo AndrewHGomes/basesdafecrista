@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "../../Button";
 import Modal from "../../modal";
-import versiculos from "../../dados/versiculos.json";
+import biblia from "../../dados/biblia.json";
 
 const Necessidade = () => {
   const [ativo, setAtivo] = useState(false);
@@ -49,18 +49,13 @@ const Necessidade = () => {
           <p>
             Paulo sugere isso quando pergunta como alguém pode se tornar um
             cristão <q>se não houver quem pregue</q> (
-            <span onClick={() => abrirModal(versiculos[26])}>
-              Romanos 10:14
-            </span>
+            <span onClick={() => abrirModal(biblia[26])}>Romanos 10:14</span>
             ). Pois
             <q>
               a fé vem por se ouvir a mensagem, e a mensagem é ouvida mediante a
               palavra de Cristo
             </q>{" "}
-            (
-            <span onClick={() => abrirModal(versiculos[27])}>
-              Romanos 10:17
-            </span>
+            (<span onClick={() => abrirModal(biblia[27])}>Romanos 10:17</span>
             ). Se não houver ninguém pregando a palavra de Cristo, diz Paulo, as
             pessoas não poderão ser salvas, e essa palavra vem da Escritura.
             Então, afim de saber como se tornar um cristão, normalmente é
@@ -70,16 +65,13 @@ const Necessidade = () => {
               as sagradas letras [... ] são capazes de torná-lo sábio para a
               salvação mediante a fé em Cristo Jesus
             </q>{" "}
-            (
-            <span onClick={() => abrirModal(versiculos[28])}>
-              2ªTimóteo 3:15
-            </span>
+            (<span onClick={() => abrirModal(biblia[28])}>2ªTimóteo 3:15</span>
             ).
           </p>
           <p>
             Contudo, a vida do cristão não começa apenas na Bíblia, mas também
             florece por meio da Bíblia. JESUS disse em{" "}
-            <span onClick={() => abrirModal(versiculos[29])}>Mateus 4:4</span>:{" "}
+            <span onClick={() => abrirModal(biblia[29])}>Mateus 4:4</span>:{" "}
             <q>
               Nem só de pão viverá o homem, mas de toda palavra que procede da
               boca de Deus.
@@ -96,13 +88,13 @@ const Necessidade = () => {
             <q>pois as coisas encobertas pertencem ao Senhor, o nosso Deus</q>{" "}
             -, há muitos aspectos de sua vontade revelados a nós por intermédio
             da Escritura - <q>para que sigamos todas as palavras desta lei</q> (
-            <span onClick={() => abrirModal(versiculos[30])}>
+            <span onClick={() => abrirModal(biblia[30])}>
               Deutoronômio 29:29
             </span>
             ). O amor por DEUS é demonstrado ao
             <q>guardar seus mandamentos</q> (
-            <span onClick={() => abrirModal(versiculos[31])}>1ªJoão 5:3</span>),
-            e seus mandamentos são encontrados nas páginas da Escritura.
+            <span onClick={() => abrirModal(biblia[31])}>1ªJoão 5:3</span>), e
+            seus mandamentos são encontrados nas páginas da Escritura.
           </p>
           <p>
             Embora a Bíblia seja necessária para muitas coisas, não o é para
@@ -112,19 +104,18 @@ const Necessidade = () => {
               os céus declaram a glória de Deus; o firmamento proclama a obra de
               suas mãos
             </q>{" "}
-            (<span onClick={() => abrirModal(versiculos[32])}>Salmos 19:1</span>
+            (<span onClick={() => abrirModal(biblia[32])}>Salmos 19:1</span>
             ). Paulo diz que, mesmo para os ímpios,{" "}
             <q>
               o que de Deus se pode conhecer é manifesto entre eles, porque Deus
               lhes manifestou
             </q>{" "}
-            (
-            <span onClick={() => abrirModal(versiculos[33])}>Romanos 1:19</span>
+            (<span onClick={() => abrirModal(biblia[33])}>Romanos 1:19</span>
             ). Não apenas os ímpios sabem da existência de DEUS e sobre Ele, mas
             também têm em suas mentes e consciências um certo entendimento
             acerca de suas leis morais (
-            <span onClick={() => abrirModal(versiculos[34])}>Romanos 1:32</span>
-            ; <span onClick={() => abrirModal(versiculos[35])}>2:14-15</span>).
+            <span onClick={() => abrirModal(biblia[34])}>Romanos 1:32</span>;{" "}
+            <span onClick={() => abrirModal(biblia[35])}>2:14-15</span>).
           </p>
           <p>
             Por conseguinte, essa <q>revelação geral</q> sobre a existência de

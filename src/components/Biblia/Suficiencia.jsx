@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "../../Button";
 import Modal from "../../modal";
-import versiculos from "../../dados/versiculos.json";
+import biblia from "../../dados/biblia.json";
 
 const Suficiencia = () => {
   const [ativo, setAtivo] = useState(false);
@@ -49,11 +49,10 @@ const Suficiencia = () => {
               Como são felizes os que andam em caminhos irrepreensíveis, que
               vivem conforme a lei do Senhor!
             </q>{" "}
-            (
-            <span onClick={() => abrirModal(versiculos[36])}>Salmos 119:1</span>
+            (<span onClick={() => abrirModal(biblia[36])}>Salmos 119:1</span>
             ). Na Bíblia, DEUS deu instruções que nos equipam para{" "}
             <q>toda a boa obra</q> que Ele quer que façamos (
-            <span onClick={() => abrirModal(versiculos[37])}>
+            <span onClick={() => abrirModal(biblia[37])}>
               2ªTimóteo 3:16-17
             </span>
             ). Isso significa dizer que a Escritura é <q>suficiênte</q>.
@@ -69,14 +68,12 @@ const Suficiencia = () => {
             Bíblia. Conquanto a Bíblia não seja capaz de responder diretamente
             cada pergunta que possamos formular, pois{" "}
             <q>as coisas encobertas pertencem ao Senhor, o nosso Deus</q> (
-            <span onClick={() => abrirModal(versiculos[30])}>
+            <span onClick={() => abrirModal(biblia[30])}>
               Deuteronômio 29:29
             </span>
             ), Ela nos provê a guia de que precisamos{" "}
             <q>para toda a boa obra</q> (
-            <span onClick={() => abrirModal(versiculos[38])}>
-              2ªTimóteo 3:17
-            </span>
+            <span onClick={() => abrirModal(biblia[38])}>2ªTimóteo 3:17</span>
             ).
           </p>
           <p>
@@ -113,9 +110,7 @@ const Suficiencia = () => {
             por exemplo, pode haver muitas situações nas quais um cristão não
             deve ingerir cafeína, ir ao cinema ou comer carne oferecida a ídolos
             (
-            <span onClick={() => abrirModal(versiculos[39])}>
-              1ªCoríntios 8-10
-            </span>{" "}
+            <span onClick={() => abrirModal(biblia[39])}>1ªCoríntios 8-10</span>{" "}
             ). No entanto, uma vez que não haja nenhum ensinamento específico ou
             algum princípio geral da Escritura que proíba tais ações para os
             cristãos, independentemente de época, essas atividades não são

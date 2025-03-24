@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "../../Button";
 import Modal from "../../modal";
-import versiculos from "../../dados/versiculos.json";
+import biblia from "../../dados/biblia.json";
 
 const Autoridade = () => {
   const [ativo, setAtivo] = useState(false);
@@ -41,52 +41,42 @@ const Autoridade = () => {
             nelas ou desobedecê-las é não crer em DEUS ou desobedecê-lo. Com
             muita frequência, as palavras do Antigo Testamento são apresentadas
             pela frase: <q>Assim diz o Senhor</q> (
-            <span onClick={() => abrirModal(versiculos[0])}>Êxodo 4:22</span>,{" "}
-            <span onClick={() => abrirModal(versiculos[1])}>Josué 24:2</span>,{" "}
-            <span onClick={() => abrirModal(versiculos[2])}>
-              1ªSamuel 10:18
-            </span>
-            ,{" "}
-            <span onClick={() => abrirModal(versiculos[3])}>Isaías 10:24</span>,{" "}
-            <span onClick={() => abrirModal(versiculos[4])}>
+            <span onClick={() => abrirModal(biblia[0])}>Êxodo 4:22</span>,{" "}
+            <span onClick={() => abrirModal(biblia[1])}>Josué 24:2</span>,{" "}
+            <span onClick={() => abrirModal(biblia[2])}>1ªSamuel 10:18</span>,{" "}
+            <span onClick={() => abrirModal(biblia[3])}>Isaías 10:24</span>,{" "}
+            <span onClick={() => abrirModal(biblia[4])}>
               Deuteronômio 18:18-20
             </span>
-            ,{" "}
-            <span onClick={() => abrirModal(versiculos[5])}>Jeremias 1:9</span>
+            , <span onClick={() => abrirModal(biblia[5])}>Jeremias 1:9</span>
             ). Essa frase, entendida como o mandamento de um rei, indicava que o
             que se seguia deveria ser obedecido sem objeção ou questionamento.
             Até mesmo as palavras no Antigo Testamento não atribuídas a citações
             diretas de DEUS são consideradas palavras Dele. Paulo, em{" "}
-            <span onClick={() => abrirModal(versiculos[6])}>
-              2ªTimóteo 3:16
-            </span>
-            , deixa isso bem claro quando escreve que{" "}
+            <span onClick={() => abrirModal(biblia[6])}>2ªTimóteo 3:16</span>,
+            deixa isso bem claro quando escreve que{" "}
             <q>toda a Escritura é inspirada por DEUS</q>.
           </p>
           <p>
             O novo testamento também afirma que suas palavras também são as
             próprias palavras de DEUS. Em{" "}
-            <span onClick={() => abrirModal(versiculos[7])}>2ªPedro 3:16</span>,
-            o apóstolo se refere a todas as cartas de Paulo como formando um
-            todo com as <q>Escrituras</q>. Isso significa que Pedro e a igreja
+            <span onClick={() => abrirModal(biblia[7])}>2ªPedro 3:16</span>, o
+            apóstolo se refere a todas as cartas de Paulo como formando um todo
+            com as <q>Escrituras</q>. Isso significa que Pedro e a igreja
             primitiva consideravam os escritos como parte da mesma categoria que
             os textos do Antigo Testamento. Por conseguinte, tinham em conta os
             escritos paulinos como as próprias palavras de DEUS.
           </p>
           <p>
             Além disso, Paulo, em{" "}
-            <span onClick={() => abrirModal(versiculos[8])}>
-              1ªTimóteo 5:18
-            </span>
-            , escreve que <q>a Escritura diz</q> duas coisas:{" "}
+            <span onClick={() => abrirModal(biblia[8])}>1ªTimóteo 5:18</span>,
+            escreve que <q>a Escritura diz</q> duas coisas:{" "}
             <q>Não amordacem o boi enquanto está debulhando o cereal</q> e{" "}
             <q>o trabalhador merece o seu salário</q>. A primeira citação
             referente a um boi procede do Antigo Testamento; ela é encontrada em{" "}
-            <span onClick={() => abrirModal(versiculos[9])}>
-              Deuteronômio 25:4
-            </span>
+            <span onClick={() => abrirModal(biblia[9])}>Deuteronômio 25:4</span>
             . A segunda vem do Novo Testamento e é encontrada em{" "}
-            <span onClick={() => abrirModal(versiculos[10])}>Lucas 10:7</span>.
+            <span onClick={() => abrirModal(biblia[10])}>Lucas 10:7</span>.
           </p>
           <p>
             Paulo, sem hesitação, cita textos tanto do Antigo Testamento quanto
@@ -94,7 +84,7 @@ const Autoridade = () => {
             palavras do Novo Testamento são consideradas as próprias palavras
             deDEUS. Consequentemente, Paulo podia escrever:{" "}
             <q>o que lhes estou escrevendo é mandamento do Senhor</q> (
-            <span onClick={() => abrirModal(versiculos[11])}>
+            <span onClick={() => abrirModal(biblia[11])}>
               1ªCoríntios 14:37
             </span>
             ).
@@ -102,32 +92,28 @@ const Autoridade = () => {
           <p>
             Uma vez que os escritos do Antigo e do Novo Testamento são
             considerados Escritura, é certo dizer que ambos, nas palavras de{" "}
-            <span onClick={() => abrirModal(versiculos[6])}>
-              2ªTimóteo 3:16
-            </span>
-            , são <q>inspirados por DEUS</q>. Isso faz sentido quando
-            consideramos a promessa de JESUS de que o ESPÍRITO SANTO{" "}
-            <q>faria lembrar</q> os discípulos de tudo quanto JESUS lhes havia
-            dito (
-            <span onClick={() => abrirModal(versiculos[12])}>João 14:26</span>).
-            Foi como os discípulos escreveram as palavras inspiradas pelo
-            ESPÍRITO, que livros como Mateus, João e 1ª e 2ª Pedro foram
-            escritos.
+            <span onClick={() => abrirModal(biblia[6])}>2ªTimóteo 3:16</span>,
+            são <q>inspirados por DEUS</q>. Isso faz sentido quando consideramos
+            a promessa de JESUS de que o ESPÍRITO SANTO <q>faria lembrar</q> os
+            discípulos de tudo quanto JESUS lhes havia dito (
+            <span onClick={() => abrirModal(biblia[12])}>João 14:26</span>). Foi
+            como os discípulos escreveram as palavras inspiradas pelo ESPÍRITO,
+            que livros como Mateus, João e 1ª e 2ª Pedro foram escritos.
           </p>
           <p>
             A Bíblia diz que existem <q>várias maneiras</q> (
-            <span onClick={() => abrirModal(versiculos[13])}>Hebreus 1:1</span>)
+            <span onClick={() => abrirModal(biblia[13])}>Hebreus 1:1</span>)
             pelas quais suas palavras reais foram escritas. Às vezes, DEUS
             falava diretamente ao autor, que tão somente registrou o que ouviu (
-            <span onClick={() => abrirModal(versiculos[14])}>
+            <span onClick={() => abrirModal(biblia[14])}>
               Apocalipse 2:1-8-12
             </span>
             ). Em outras ocasiões, o autor baseou muitos dos seus escritos em
             entrevistas e pesquisas (
-            <span onClick={() => abrirModal(versiculos[15])}>Lucas 1:1-3</span>
+            <span onClick={() => abrirModal(biblia[15])}>Lucas 1:1-3</span>
             ). Em outros momentos, o ESPÍRITO SANTO trouxe à mente coisas que
             JESUS ensinou (
-            <span onClick={() => abrirModal(versiculos[12])}>João 14:26</span>
+            <span onClick={() => abrirModal(biblia[12])}>João 14:26</span>
             ). Independentemente de como as palavras chegaram até os autores, o
             que eles escreviam era uma extensão de si mesmos - de suas
             personalidades, habilidades, origens e treinamento. Mas tembém eram
@@ -151,7 +137,7 @@ const Autoridade = () => {
             édiferente de qualquer livro que já tenham lido. Mediante a
             leitura,eles passam a crer que as palavras da Escritura são as
             palavras dopróprio DEUS. É como JESUS disse em{" "}
-            <span onClick={() => abrirModal(versiculos[16])}>João 10:27</span>:{" "}
+            <span onClick={() => abrirModal(biblia[16])}>João 10:27</span>:{" "}
             <q>As minhas ovelhas ouvem a minha voz... E elas me seguem</q>.
           </p>
           <p>
@@ -161,7 +147,7 @@ const Autoridade = () => {
             nos auxiliar a ver a razoabilidade dos reclamos da Bíblia. Como
             reiaspalavras de DEUS, as palavras da Escritura são mais do
             quesimplismente verdadeiras; elas são a própria verdade (
-            <span onClick={() => abrirModal(versiculos[17])}>João 17:17</span>).
+            <span onClick={() => abrirModal(biblia[17])}>João 17:17</span>).
             Elas são o aferidor final pelo qual toda suposta verdade deve ser
             avaliada. Logo, o que não se harmoniza com elas não é verdade. Novos
             fatos científicos ou históricos podem noslevar a reexaminar nossa

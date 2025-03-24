@@ -10,7 +10,7 @@ const App = () => {
       </header>
       <main>
         <Biblia />
-        {/* <Deus /> */}
+        <Deus />
       </main>
       <footer>
         <h5>Andrew &copy; 2025</h5>
