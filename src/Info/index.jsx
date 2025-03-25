@@ -1,7 +1,7 @@
 const index = () => {
   return (
     <div className="info">
-      <h2>Informações importantes:</h2>
+      <h3>Informações importantes:</h3>
       <p>
         O conteúdo deste App foi extraído do livro Bases da Fé Cristã de Wayne
         Grudem e da própria Palavra de DEUS, a Bíblia Sagrada. Cada tópico

@@ -23,8 +23,8 @@ footer {
 }
 
 .info {
-  background-color: #345;
-  color: var(--cor-textos);
+  background-color: #456;
+  color: var(--cor-forte);
   text-align: justify;
   margin: 0.7em;
   padding: 1em;
@@ -34,8 +34,7 @@ footer {
   gap: 0.7em;
 }
 
-.info h2 {
-  color: #fc0;
+.info h3 {
   text-align: center;
 }
 
