@@ -1,3 +1,4 @@
+import Info from "./Info/";
 import Biblia from "./components/Biblia";
 import Deus from "./components/Deus";
 
@@ -9,6 +10,7 @@ const App = () => {
         <small>20 fundamentos que todo cristão precisa entender</small>
       </header>
       <main>
+        <Info />
         <Biblia />
         <Deus />
       </main>

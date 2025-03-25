@@ -22,6 +22,43 @@ footer {
   padding: 0.5em;
 }
 
+.info {
+  background-color: #345;
+  color: var(--cor-textos);
+  text-align: justify;
+  margin: 0.7em;
+  padding: 1em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+
+.info h2 {
+  color: #fc0;
+  text-align: center;
+}
+
+.info ul {
+  list-style: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+#textoClaro {
+  color: var(--cor-clara);
+}
+
+#textoCitacoes {
+  color: var(--cor-citacoes);
+}
+
+#textoVersiculos {
+  color: var(--cor-versiculos);
+}
+
 section {
   background-color: var(--cor-forte);
   color: var(--cor-textos);
