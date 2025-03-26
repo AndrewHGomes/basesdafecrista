@@ -1,6 +1,6 @@
 const index = () => {
   return (
-    <div className="info">
+    <section>
       <h3>Informações importantes:</h3>
       <p>
         O conteúdo deste App foi extraído do livro Bases da Fé Cristã de Wayne
@@ -11,13 +11,13 @@ const index = () => {
       <p></p>
       <p>Dentro de cada subtópico, você irá encontrar:</p>
       <ul>
-        <li id="textoClaro">A explicação de cada assunto;</li>
-        <li id="textoCitacoes">Citações de versículos;</li>
+        <li>Explicações sobre o assunto;</li>
+        <li id="textoCitacoes">Citações bíblicas;</li>
         <li id="textoVersiculos">
-          Referência dos versículos (clique sobre eles para abri-los).
+          Referências bíblicas (clique sobre elas para abri-las).
         </li>
       </ul>
-    </div>
+    </section>
   );
 };
 

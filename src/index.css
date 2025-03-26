@@ -1,66 +1,41 @@
 :root {
-  --cor-forte: #012;
-  --cor-clara: #fff;
-  --cor-textos: #00ddff;
-  --cor-versiculos: #32cd32;
-  --cor-citacoes: #fc9657;
+  --cor1: #112;
+  --cor2: #ddd;
+  --cor3: #50b8f8;
+  --cor5: #faa;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: verdana;
+  font-family: tahoma;
   outline: none;
 }
 
 header,
 footer {
-  background-color: var(--cor-forte);
-  color: var(--cor-clara);
+  background-color: var(--cor1);
+  color: var(--cor5);
   text-align: center;
   padding: 0.5em;
 }
 
-.info {
-  background-color: #456;
-  color: var(--cor-forte);
-  text-align: justify;
-  margin: 0.7em;
-  padding: 1em;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  gap: 0.7em;
-}
-
-.info h3 {
-  text-align: center;
-}
-
-.info ul {
-  list-style: none;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-}
-
 #textoClaro {
-  color: var(--cor-clara);
+  color: var(--cor2);
 }
 
 #textoCitacoes {
-  color: var(--cor-citacoes);
+  color: var(--cor5);
 }
 
 #textoVersiculos {
-  color: var(--cor-versiculos);
+  color: var(--cor3);
 }
 
 section {
-  background-color: var(--cor-forte);
-  color: var(--cor-textos);
+  background-color: var(--cor1);
+  color: var(--cor2);
   border-radius: 5px;
   text-align: justify;
   margin: 0.7em;
@@ -76,18 +51,24 @@ section h2 {
 
 section h2,
 section h3 {
-  color: var(--cor-citacoes);
+  color: var(--cor3);
 }
 
 section p {
-  text-indent: 1em;
   line-height: 1.3em;
   letter-spacing: 0.1em;
 }
 
+section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
 article {
-  background-color: #123;
-  border: 1px solid var(--cor-textos);
+  background-color: var(--cor6);
+  border: 1px solid var(--cor3);
   border-radius: 5px;
   padding: 0.5em;
   display: flex;
@@ -103,8 +84,8 @@ article {
 
 .titulo button,
 .subtopico button {
-  background-color: var(--cor-versiculos);
-  color: var(--cor-forte);
+  background-color: var(--cor3);
+  color: var(--cor1);
   border: none;
   border-radius: 5px;
   padding: 0.5em;
@@ -112,16 +93,14 @@ article {
   cursor: pointer;
 }
 
-.titulo button:hover {
-  background-color: #0f0;
-}
-
-.topico {
-  color: var(--cor-textos);
+.titulo button:hover,
+.subtopico button:hover {
+  background-color: #09f;
 }
 
 .subtopico {
-  color: var(--cor-clara);
+  text-indent: 1em;
+  color: var(--cor2);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,29 +108,29 @@ article {
 }
 
 q {
-  color: var(--cor-citacoes);
+  color: var(--cor5);
   font-style: italic;
 }
 
 span {
-  color: var(--cor-versiculos);
+  color: var(--cor3);
   cursor: pointer;
 }
 
 span:hover {
-  color: #0f0;
-  border-bottom: 1px solid #0f0;
+  color: #09f;
+  border-bottom: 1px solid #09f;
 }
 
 .modal {
   position: fixed;
   bottom: 30%;
-  background-color: #000;
-  color: var(--cor-textos);
+  background-color: var(--cor1);
+  color: var(--cor3);
   width: 90%;
   height: 30%;
   padding: 1em;
-  border: 2px solid var(--cor-textos);
+  border: 1px solid var(--cor3);
   border-radius: 5px;
   overflow: auto;
   display: flex;
@@ -160,14 +139,4 @@ span:hover {
   justify-content: space-around;
   gap: 1em;
   text-align: center;
-}
-
-.modal button {
-  background-color: #f00;
-  color: var(--cor-clara);
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  padding: 0.5em;
-  cursor: pointer;
 }
