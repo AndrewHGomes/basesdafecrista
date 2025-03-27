@@ -1,8 +1,8 @@
 :root {
   --cor1: #112;
-  --cor2: #ccc;
+  --cor2: #ddd;
   --cor3: #50b8f8;
-  --cor5: #faa;
+  --cor5: #e66;
 }
 
 * {
@@ -16,7 +16,7 @@
 header,
 footer {
   background-color: var(--cor1);
-  color: var(--cor5);
+  color: var(--cor3);
   text-align: center;
   padding: 0.5em;
 }
@@ -49,9 +49,9 @@ section h2 {
   text-align: center;
 }
 
-section h2,
+/* section h2, */
 section h3 {
-  color: var(--cor3);
+  color: var(--cor5);
 }
 
 section p {
