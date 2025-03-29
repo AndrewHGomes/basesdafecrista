@@ -231,7 +231,7 @@
     "livro": "Amós",
     "capitulo": "9",
     "versiculo": "1-4",
-    "texto": "Vi o Senhor junto ao altar, e ele disse: 'Bata no topo das colunas para que tremam os umbrais. Faça que elas caiam sobre todos os presentes; e os que sobrarem matarei à espada. Ninguém fugirá, ninguém escapará. [2] Ainda que escavem até as profundezas, dali a minha mão irá tirá-los. Se subirem até os céus, de lá os farei descer. [3] Mesmo que se escondam no topo do Carmelo, lá os caçarei e os prenderei. Ainda que se escondam de mim no fundo do mar, ali ordenarei à serpente que os morda. [4] Mesmo que sejam levados ao exílio por seus inimigos, ali ordenarei que a espada os mate. Vou vigiá-los para lhes fazer o mal, e não o bem'."
+    "texto": "[1] Vi o Senhor junto ao altar, e ele disse: 'Bata no topo das colunas para que tremam os umbrais. Faça que elas caiam sobre todos os presentes; e os que sobrarem matarei à espada. Ninguém fugirá, ninguém escapará. [2] Ainda que escavem até as profundezas, dali a minha mão irá tirá-los. Se subirem até os céus, de lá os farei descer. [3] Mesmo que se escondam no topo do Carmelo, lá os caçarei e os prenderei. Ainda que se escondam de mim no fundo do mar, ali ordenarei à serpente que os morda. [4] Mesmo que sejam levados ao exílio por seus inimigos, ali ordenarei que a espada os mate. Vou vigiá-los para lhes fazer o mal, e não o bem'."
   },
   {
     "livro": "Colossenses",
@@ -370,5 +370,65 @@
     "capitulo": "3",
     "versiculo": "5",
     "texto": "Confie no Senhor de todo o seu coração e não se apoie em seu próprio entendimento;"
+  },
+  {
+    "livro": "Jeremias",
+    "capitulo": "10",
+    "versiculo": "10",
+    "texto": "Mas o Senhor é o Deus verdadeiro; ele é o Deus vivo; o rei eterno. Quando ele se ira, a terra treme; as nações não podem suportar o seu furor."
+  },
+  {
+    "livro": "Colossenses",
+    "capitulo": "3",
+    "versiculo": "9-10",
+    "texto": "[9] Não mintam uns aos outros, visto que vocês já se despiram do velho homem com suas práticas [10] e se revestiram do novo, o qual está sendo renovado em conhecimento, à imagem do seu Criador."
+  },
+  {
+    "livro": "Lucas",
+    "capitulo": "18",
+    "versiculo": "19",
+    "texto": "'Por que você me chama bom?', respondeu Jesus. 'Não há ninguém que seja bom, a não ser somente Deus'"
+  },
+  {
+    "livro": "Gênesis",
+    "capitulo": "1",
+    "versiculo": "31",
+    "texto": "E Deus viu tudo o que havia feito, e tudo havia ficado muito bom. Passaram-se a tarde e a manhã; esse foi o sexto dia."
+  },
+  {
+    "livro": "Tiago",
+    "capitulo": "1",
+    "versiculo": "17",
+    "texto": "Toda boa dádiva e todo dom perfeito vêm do alto, descendo do Pai das luzes, que não muda como sombras inconstantes."
+  },
+  {
+    "livro": "Salmos",
+    "capitulo": "84",
+    "versiculo": "11",
+    "texto": "O Senhor Deus é sol e escudo; o Senhor concede favor e honra; não recusa nenhum bem aos que vivem com integridade."
+  },
+  {
+    "livro": "Mateus",
+    "capitulo": "7",
+    "versiculo": "11",
+    "texto": "Se vocês, apesar de serem maus, sabem dar boas coisas aos seus filhos, quanto mais o Pai de vocês, que está nos céus, dará coisas boas aos que lhe pedirem!"
+  },
+  {
+    "livro": "Hebreus",
+    "capitulo": "12",
+    "versiculo": "10",
+    "texto": "Nossos pais nos disciplinavam por curto período, segundo lhes parecia melhor; mas Deus nos disciplina para o nosso bem, para que participemos da sua santidade."
+  },
+  {
+    "livro": "Salmos",
+    "capitulo": "73",
+    "versiculo": "25",
+    "texto": "A quem tenho nos céus senão a ti? E, na terra, nada mais desejo além de estar junto a ti."
+  },
+  {
+    "livro": "Gálatas",
+    "capitulo": "6",
+    "versiculo": "10",
+    "texto": "Portanto, enquanto temos oportunidade, façamos o bem a todos, especialmente aos da família da fé."
   }
 ]

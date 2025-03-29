@@ -9,6 +9,7 @@ import Onipresente from "./Onipresente";
 import Onisciente from "./Onisciente";
 import Sabio from "./Sabio";
 import Verdadeiro from "./Verdadeiro";
+import Bom from "./Bom";
 
 const Deus = () => {
   return (
@@ -32,7 +33,8 @@ const Deus = () => {
       <Invisivel />
       <Onisciente />
       <Sabio />
-      {/* <Verdadeiro /> */}
+      <Verdadeiro />
+      <Bom />
     </section>
   );
 };

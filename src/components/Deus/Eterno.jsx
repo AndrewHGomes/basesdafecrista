@@ -41,7 +41,7 @@ const Eterno = () => {
             seu próprio ser. Isso é afirmado em{" "}
             <span onClick={() => abrirModal(deus[16])}>Salmos 90:2</span>:{" "}
             <q>
-              Antes de nescerem os montes e de criares a terra e o mundo, de
+              Antes de nascerem os montes e de criares a terra e o mundo, de
               eternidade a eternidade tu és Deus
             </q>
             . Ele estava trabalhando <q>antes da fundação do mundo</q> (
