@@ -8,6 +8,7 @@ import Invisivel from "./Invisivel";
 import Onipresente from "./Onipresente";
 import Onisciente from "./Onisciente";
 import Sabio from "./Sabio";
+import Verdadeiro from "./Verdadeiro";
 
 const Deus = () => {
   return (
@@ -30,7 +31,8 @@ const Deus = () => {
       <Espirito />
       <Invisivel />
       <Onisciente />
-      {/* <Sabio /> */}
+      <Sabio />
+      {/* <Verdadeiro /> */}
     </section>
   );
 };
