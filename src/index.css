@@ -47,9 +47,9 @@ section {
 
 section h2 {
   text-align: center;
+  color: var(--cor3);
 }
 
-/* section h2, */
 section h3 {
   color: var(--cor5);
 }
